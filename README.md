@@ -1,6 +1,19 @@
 # Utility-Dashboard
 This repo contains **synthetic** data and a starter structure for the Water Utility KPI & Capex Prioritisation Dashboard.
 
+## Problem Statement
+A UK water operator is under budget pressure. Which interventions—leak repairs, DMA metering, pump upgrades—maximise service performance and economic value under Ofwat-style constraints? I built a Power BI KPI stack, linked each CapEx to KPI deltas and £-impact, then used an Excel/Python optimiser to pick the best portfolio across Base/Drought/High-energy scenarios.
+
+## Target outcomes
+
+- Transparent KPI library aligned to water ops.
+
+- Traceability from raw data → KPI → £ impact → portfolio choice.
+
+- Executable ‘what‑if’ levers (energy price, leakage uplift, penalty weights).
+
+- Board‑ready deck summarising ROI, risks, and next steps.
+
 ## Contents
 - `data/raw/` — input CSVs (incidents, supply, energy, customers, costs, projects, project_benefits)
 - `data/lookup/` — `dma_lookup.csv`, `region_attributes.csv`, `targets_penalties.csv`
