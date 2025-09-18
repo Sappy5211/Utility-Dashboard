@@ -1,5 +1,5 @@
 # Utility-Dashboard
-This repo contains **synthetic** data and a starter structure for your Water Utility KPI & Capex Prioritisation Dashboard.
+This repo contains **synthetic** data and a starter structure for the Water Utility KPI & Capex Prioritisation Dashboard.
 
 ## Contents
 - `data/raw/` — input CSVs (incidents, supply, energy, customers, costs, projects, project_benefits)
